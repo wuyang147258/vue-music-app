@@ -16,7 +16,7 @@ export default new Vuex.Store({
 		NEXT_ID(state,playload){
 			for(var i=0;i<state.topListIds.length;i++){
 				if(state.topListIds[i].id==playload){
-					state.nextId=state.topListIds[i+1].id
+					state.nextId=state.topListIdsp[i+1].id
 				}
 			}
 		}
